@@ -3018,7 +3018,7 @@ case 'jasa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝙅𝘼𝙎𝘼 𝙄𝙉𝙎𝙏𝘼𝙇𝙇 𝘽𝙊𝙏
- -ＫｕｒｒＸｄ-
+ -Abbas Botz-
 
 *Abbas-Botz Menyediakan Jasa Install Bot*
 _platform heroku_
