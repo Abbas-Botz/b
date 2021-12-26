@@ -48,7 +48,7 @@ case 6: hari = 'Sabtu'; break;
 }
 
 switch(bulan1) { 
-case 0: bulan1 = 'kurruari'; break;
+case 0: bulan1 = 'Januari'; break;
 case 1: bulan1 = 'Februari'; break; 
 case 2: bulan1 = 'Maret'; break;
 case 3: bulan1 = 'April'; break;
@@ -302,7 +302,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
 
-				sendButImage(anu.jid, teks, `elaine bot`, img,but = [{buttonId:`donasi`, 
+				sendButImage(anu.jid, teks, `abbas bot`, img,but = [{buttonId:`donasi`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
