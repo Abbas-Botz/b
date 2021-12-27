@@ -324,7 +324,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, `elaine bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `abbas  bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -404,8 +404,8 @@ kurr.on('group-update', async (anu) => {
 	})
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["628995820020@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "628995820020@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
