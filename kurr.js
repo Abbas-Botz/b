@@ -3093,7 +3093,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© Abbas_*', 
 buttons: gbutsan,
 headerType: 4
 }
